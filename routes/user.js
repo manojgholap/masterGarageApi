@@ -20,4 +20,8 @@ router.post('/uploads', upload.single('profile'), (req, res) => { userController
 router.post('/setPassword', (req, res) => { userController.setPassword(req,res)})
 router.post('/getUserDetails',(req, res) => {userController.getUserDetails(req,res)})
 router.post('/addUserCar', (req, res) => {userController.addUserCar(req,res)})
+router.post('/addUserTempCar', (req, res) => {userController.addUserTempCar(req,res)})
+router.post('/getUserCarDetails',(req,res)=>{userController.getUserCarDetails(req,res)})
+router.post('/getUserTempCarDetails',(req,res)=>{userController.getUserTempCarDetails(req,res)})
+
 module.exports = router

@@ -1,0 +1,873 @@
+{
+    "Periodic Service": {
+        "Service Packages": {
+            "Basic Service": {
+                "package": [
+                    "4 Hrs Taken",
+                    "1000 Kms or I Month Warranty",
+                    " Every 5000 Kms or 3 Months (Recommended)"
+                ],
+                "includes": [
+                    "Engine Oil Replacement",
+                    "Oil Filter Replacement",
+                    "Air Filter Cleaning",
+                    "Coolant Top up",
+                    "Wiper Fluid Replacement",
+                    "Battery Water Tap up",
+                    "Heater/ Spark Plugs Checking",
+                    "Car Wash",
+                    "Interior Vacumming (Carpet & Seats)"
+                ]
+            },
+            "Standard Service": {
+                "package": [
+                    "6 Hrs Taken",
+                    " 1000 Kms or I Month Warranty",
+                    " Every 10000 Kms or 6 Months (Recommended)"
+                ],
+                "includes": [
+                    "Engine Oil Replacement",
+                    "Oil Filter Replacement",
+                    "Air Filter Cleaning",
+                    "Fuel Filter Checking",
+                    "Cabin Filter/ AC Filter Cleaning",
+                    "Coolant Top up (200 ml)",
+                    "Wiper Fluid Replacement",
+                    "Brake Fluid Top up (50 ml)",
+                    "Battery Water Top up",
+                    "Heater/ Spark Plugs Checking",
+                    "Car Wash",
+                    "Interior Vacumming (Carpet & Seats)",
+                    "Scanning",
+                    "Rear Brake Shoe Serviced",
+                    "Front Brake Pads Serviced"
+                ]
+            },
+            "Comprehensive Service": {
+                "package": [
+                    "8 Hrs Taken",
+                    " 1000 Kms or I Month Warranty",
+                    " Every 20000 Kms or 1 Year (Recommended)"
+                ],
+                "includes": [
+                    "Engine Oil Replacement",
+                    "Oil Filter Replacement",
+                    "Air Filter Cleaning",
+                    "Fuel Filter Checking",
+                    "Cabin Filter/ AC Filter Cleaning",
+                    "Coolant Top up (200 ml)",
+                    "Wiper Fluid Replacement",
+                    "Brake Fluid Top up (50 ml)",
+                    "Battery Water Top up",
+                    "Heater/ Spark Plugs Checking",
+                    "Car Wash",
+                    "Interior Vacumming (Carpet & Seats)",
+                    "Scanning",
+                    "Rear Brake Shoe Serviced",
+                    "Front Brake Pads Serviced",
+                    "Wheel Balancing",
+                    "Wheel Alignment",
+                    "Tyre Rotation",
+                    "Throttle Body Cleaning",
+                    "Gear Oil Top up"
+                ]
+            }
+        },
+        "Other Packages": {
+            "Car Inspection & Diagnostics": {
+                "package": [
+                    "In case of Unknown Problems",
+                    " 25 Points Checklist"
+                ],
+                "includes": [
+                    "Engine Bay Inspection",
+                    "Underbody Inspection",
+                    "25 Points Checklist",
+                    " Upfront Estimate"
+                ]
+            },
+            "Engine Scanning": {
+                "package": [
+                    "  OEM Scan & Code Reset",
+                    " Scanner Report Provided"
+                ],
+                "includes": [
+                    "Electrical Scanning",
+                    "Error Code Deletion",
+                    "Sensor Reset",
+                    "Inspection of Exaust Smoke"
+                ]
+            },
+            "Suspension Inspection": {
+                "package": [
+                    "On Suspension Noise",
+                    "25 Points Check List"
+                ],
+                "includes": [
+                    "Front Shocker Check",
+                    "Rear Shocker Check",
+                    "Shocker Mount Check",
+                    "Link Rad Inspection",
+                    "Jumping Rod Bush Check"
+                ]
+            }
+        }
+    },
+    "AC Service & Repairs": {
+        "AC Service": {
+            "Regular AC Service": {
+                "package": [
+                    "Every  6  Months  Recommended",
+                    "Includes 5 Points Service"
+                ],
+                "includes": [
+                    "AC Gas Topup (upto 400gms)",
+                    "Condenser Cleaning",
+                    "AC Filter Cleaning",
+                    "AC Vent Cleaning",
+                    "AC Inspection"
+                ]
+            },
+            "High Performance AC Service": {
+                "package": [
+                    "Every  6  Months  Recommended",
+                    "Includes 5 Points Service"
+                ],
+                "includes": [
+                    "AC Gas Replacement ( Upto 600gms )",
+                    "Dashboard Removing Refitting",
+                    "Compressor Oil Topup ( Upto 200ml )",
+                    "Cooling Coil Cleaning ( Front + Rear )",
+                    "Condenser Cleaning",
+                    "AC Filter Cleaning",
+                    "AC Vent Cleaning",
+                    "AC Leak Test",
+                    "Dashboard Cleaning"
+                ]
+            }
+        },
+        "AC Repairs": {
+            "AC Cooling Issues": {
+                "package": [
+                    " AC not working properly?",
+                    "Need AC Fittings Replacement?",
+                    "Don't know what is wrong?"
+                ],
+                "includes": [
+                    "Additional Information by customer is Mandatory for this service",
+                    "Service contents will be provided after requirement submission",
+                    "Estimates based on requiremets will be collected from nearby garages and will be shared with customers"
+                ]
+            }
+        }
+    },
+    "Battery Care": {
+        "Amaron": {
+            "Amaron (Month Warranty)": {
+                "package": [
+                    "Amp Hour",
+                    "months warranty"
+                ],
+                "include": [
+                    "Free Installation",
+                    "Existing Battery Replacement"
+                ]
+            }
+        },
+        "Exide": {
+            "Exide(Month Warranty)": {
+                "package": [
+                    "Amp Hour",
+                    "months warranty"
+                ],
+                "include": [
+                    "Free Installation",
+                    "Existing Battery Replacement"
+                ]
+            }
+        },
+        "Repairs": {
+            "Faulty Electricals": {
+                "package": [
+                    "Dashboard Warning Lights?",
+                    "Malfunctioning Electrical Units?",
+                    "Don’t know what is wrong?"
+                ],
+                "include": [
+                    "Additional Information by customer is Mandatory for this service",
+                    "Service contents will be provided after requirement submission",
+                    "Estimates based on requiremets will be collected from nearby garages and will be shared with customers"
+                ]
+            }
+        }
+    },
+    "Wheel Care": {
+        "Wheel Care": {
+            "Regular Wheel Care": {
+                "package": [
+                    "Alignment & Balancing",
+                    "Recommended every 3 Months"
+                ],
+                "include": [
+                    "Automated Wheel Balancing",
+                    "Weight Correction",
+                    " Wheel Rigidity Inspection",
+                    "Alloy Weights Additional",
+                    "Laser Assisted Wheel Alignment",
+                    "Steering Adjustment and Correction",
+                    "Camber and Castor Adjustment"
+                ]
+            },
+            "Complete Wheel Care": {
+                "package": [
+                    "Alignment, Balancig & Tyre Rotation",
+                    "Recommended every 6 Months or 10,000 kms"
+                ],
+                "include": [
+                    "Automated Wheel Balancing",
+                    "Weight Correction",
+                    " Wheel Rigidity Inspection",
+                    "Alloy Weights Additional",
+                    "Laser Assisted Wheel Alignment",
+                    "Steering Adjustment and Correction",
+                    "Camber and Castor Adjustment",
+                    "Recommended at Tyre Replacement",
+                    "All Four Tyre Rotation as per Tread Wear",
+                    "Depth Inspection",
+                    "Pattern & Wear Inspection"
+                ]
+            }
+        },
+        "Apollo": {
+            "Apollo Alnac 4G Life": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "Apollo Alnac 4G": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "Apollo Alnac 4Gs": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            }
+        },
+        "MRF": {
+            "MRF ZTX": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "MRF ZLX": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "MRF ZVTV": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "MRF ZVTS": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "MRF ZV2K": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "MRF Wanderer Sport": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "MRF Wanderer Street": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            }
+        },
+        "CEAT": {
+            "Ceat Milaze": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "Ceat Milaze X3": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "Ceat Secura Drive": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "Ceat Czar Sports": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            }
+        },
+        "JK": {
+            "JK Ultima Neo": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "JK Ultima NXT": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "JK Ultima Sport": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "JK Vectra": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "JK UX Royale": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            },
+            "JK Elanzo NXT": {
+                "package": [
+                    "Year Warranty",
+                    "Type- Tube or Tubeless"
+                ],
+                "include": [
+                    " Free Pick-up & Drop",
+                    "Tyre Replacement at Service Center",
+                    "Tyres Inspection for Tread",
+                    "Alignment & Balancing Charges Extra"
+                ]
+            }
+        }
+    },
+    "Denting & Painting": {
+        "Front Side": {
+            "Front Bumper": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Front Bonnet": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            }
+        },
+        "Rear Side": {
+            "Rear Bumper": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Boot Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            }
+        },
+        "Whole Body": {
+            "Full Body Dent Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Alloy Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            }
+        },
+        "Left Side": {
+            "Left Fender Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Left Front Door Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Left Rear Door Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Left Quarter Panel Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Left Running Board Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            }
+        },
+        "Right Side": {
+            "Right Fender Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Right Front Door Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Right Rear Door Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Right Quarter Panel Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            },
+            "Right Running Board Paint": {
+                "package": [
+                    "100 % Colour Match",
+                    "Branded Paints"
+                ],
+                "include": [
+                    "Grade A Primer",
+                    "OEM OES Paints",
+                    "4 Layers of Painting",
+                    "Panel Rubbing Polishing"
+                ]
+            }
+        }
+    },
+    "Inspection & Diagnostics": {
+        "Inspection & Diagnostics": {
+            "Car Inspection / Diagnostics": {
+                "package": [
+                    "In case of Unknown Problems",
+                    " 25 Points Checklist"
+                ],
+                "include": [
+                    "Engine By Inspection",
+                    "Underbody Inspection",
+                    "25 Points Checklist",
+                    "Upfront Estimate"
+                ]
+            },
+            "Engine Scanning": {
+                "package": [
+                    "OEM Scan & Code Reset",
+                    " Scanner Report Provided"
+                ],
+                "include": [
+                    "Electrical Scanning",
+                    "Error Code Deletion",
+                    "Sensor Reset",
+                    "Inspection of Exaust Smoke"
+                ]
+            },
+            "Suspension Inspection": {
+                "package": [
+                    "On Suspension Noise",
+                    "25 Points Check List"
+                ],
+                "include": [
+                    "Front Shocker Check",
+                    "Rear Shocker Check",
+                    "Shocker Mount Check",
+                    "Link Rad Inspection",
+                    "Jumping Rod Bush Check"
+                ]
+            },
+            "Car Fluids Check": {
+                "package": [
+                    "On Leakage or Check Light ( Recommended )",
+                    "5 Points Check List"
+                ],
+                "include": [
+                    "Brake Fluid Check",
+                    "Coolant Check",
+                    "Engine Oil Check",
+                    "Power Steering Oil Check",
+                    "Battery Water Inspection"
+                ]
+            },
+            "Second Hand Car Inspection & Diagnostics": {
+                "package": [
+                    " Takes 4 hours",
+                    "50 Points Check-List",
+                    " Scanner Report Provided"
+                ],
+                "include": [
+                    "50 Points Check-List",
+                    "Full Car Scanning",
+                    "Physical Car Diagnosis",
+                    "Mechanical & Electrical Diagnosis",
+                    "Upfront Estimate"
+                ]
+            },
+            "Doorstep Accidental Inspection": {
+                "package": [
+                    "Takes 4 hours",
+                    "25 Points Checklist",
+                    " Recommended- Accidental Damages"
+                ],
+                "include": [
+                    "Body Damage Inspection",
+                    "25 Points Checklist",
+                    "Insurance Claim Advice",
+                    " Policy Inspection"
+                ]
+            }
+        }
+    },
+    "Mechanical Repairs": {
+        "issues": {
+            "Car Engine Issues": {
+                "package": [
+                    "Engine Overfiring?",
+                    "Engine heating?",
+                    " Don’t know what is wrong?"
+                ],
+                "include": [
+                    "Additional Information by customer is Mandatory for this service",
+                    "Service contents will be provided after requirement submission",
+                    "Estimates based on requiremets will be collected from nearby garages and will be shared with customers"
+                ]
+            },
+            "Problem with Brakes & Wheels": {
+                "package": [
+                    "Worn Out Brakes?",
+                    "Screeching Noises?",
+                    "Don’t know what is wrong?"
+                ],
+                "include": []
+            },
+            "Clutch & Transmission Troubles": {
+                "package": [
+                    "Saggy Clutch?",
+                    "Hard Gear Shifting?",
+                    "Don’t know what is wrong?"
+                ],
+                "include": []
+            },
+            "Noises with Car Suspension & Steering": {
+                "package": [
+                    "Hard Steering?",
+                    "Noises from Suspension?",
+                    "Don’t know what is wrong?"
+                ],
+                "include": []
+            },
+            "Faulty Electricals": {
+                "package": [
+                    "Dashboard Warning Lights?",
+                    "Malfunctioning Electrical Units?",
+                    "Don’t know what is wrong?"
+                ],
+                "include": []
+            },
+            "AC Cooling Issues": {
+                "package": [
+                    "AC not working properly?",
+                    "Need AC Fittings Replacement?",
+                    "Don’t know what is wrong?"
+                ],
+                "include": []
+            },
+            "Damaged Car Body or Interiors": {
+                "package": [
+                    "Stained Seat Covers?",
+                    "Dents on Car Body?",
+                    "Don’t know what is wrong?"
+                ],
+                "include": []
+            },
+            "Some Other Issue": {
+                "package": [
+                    "Don’t know what is wrong?"
+                ],
+                "include": []
+            }
+        }
+    },
+    "Road Side Assistance": {
+        "Road Side Assistance": {
+            "Battery Jump Start": {
+                "package": [],
+                "include": []
+            },
+            "Car Fluid Change": {
+                "package": [],
+                "include": []
+            },
+            "Car Towing Service": {
+                "package": [],
+                "include": []
+            },
+            "Car Self Starter Issue": {
+                "package": [],
+                "include": []
+            },
+            "Car Engine Smoke": {
+                "package": [],
+                "include": []
+            },
+            "Clutch Breakdown": {
+                "package": [],
+                "include": []
+            }
+        }
+    }
+}

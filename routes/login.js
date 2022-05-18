@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 router.use(express.json())
 const login = require('../controller/loginController');
-const { route } = require('./user');
+
 
 
 router.post('/generateOtp', (req, res) => { login.generateOtp(req, res) })
