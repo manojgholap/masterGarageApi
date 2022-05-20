@@ -1,837 +1,1022 @@
 {
-    "Periodic Service":{
-        "Service Packages": {
-            "Basic Service": {
-                "price":2200,
-                "package": [
-                    "4 Hrs Taken",
-                    "1000 Kms or I Month Warranty",
-                    " Every 5000 Kms or 3 Months (Recommended)"
-                ],
-                "includes": [
-                    "Engine Oil Replacement",
-                    "Oil Filter Replacement",
-                    "Air Filter Cleaning",
-                    "Coolant Top up",
-                    "Wiper Fluid Replacement",
-                    "Battery Water Tap up",
-                    "Heater/ Spark Plugs Checking",
-                    "Car Wash",
-                    "Interior Vacumming (Carpet & Seats)"
-                ]
-            },
-            "Standard Service": {
-                "price":2200,
-                "package": [
-                    "6 Hrs Taken",
-                    " 1000 Kms or I Month Warranty",
-                    " Every 10000 Kms or 6 Months (Recommended)"
-                ],
-                "includes": [
-                    "Engine Oil Replacement",
-                    "Oil Filter Replacement",
-                    "Air Filter Cleaning",
-                    "Fuel Filter Checking",
-                    "Cabin Filter/ AC Filter Cleaning",
-                    "Coolant Top up (200 ml)",
-                    "Wiper Fluid Replacement",
-                    "Brake Fluid Top up (50 ml)",
-                    "Battery Water Top up",
-                    "Heater/ Spark Plugs Checking",
-                    "Car Wash",
-                    "Interior Vacumming (Carpet & Seats)",
-                    "Scanning",
-                    "Rear Brake Shoe Serviced",
-                    "Front Brake Pads Serviced"
-                ]
-            },
-            "Comprehensive Service": {
-                "price":2200,
-                "package": [
-                    "8 Hrs Taken",
-                    " 1000 Kms or I Month Warranty",
-                    " Every 20000 Kms or 1 Year (Recommended)"
-                ],
-                "includes": [
-                    "Engine Oil Replacement",
-                    "Oil Filter Replacement",
-                    "Air Filter Cleaning",
-                    "Fuel Filter Checking",
-                    "Cabin Filter/ AC Filter Cleaning",
-                    "Coolant Top up (200 ml)",
-                    "Wiper Fluid Replacement",
-                    "Brake Fluid Top up (50 ml)",
-                    "Battery Water Top up",
-                    "Heater/ Spark Plugs Checking",
-                    "Car Wash",
-                    "Interior Vacumming (Carpet & Seats)",
-                    "Scanning",
-                    "Rear Brake Shoe Serviced",
-                    "Front Brake Pads Serviced",
-                    "Wheel Balancing",
-                    "Wheel Alignment",
-                    "Tyre Rotation",
-                    "Throttle Body Cleaning",
-                    "Gear Oil Top up"
-                ]
-            }
+    "Periodic Service": [
+        {
+            "Service Packages": [
+                {
+                    "id": 1,
+                    "title": "Basic Service",
+                    "img": "BasicService",
+                    "price": 700.00,
+                    "package": [
+                        "4 Hrs Taken",
+                        "1000 Kms or I Month Warranty",
+                        " Every 5000 Kms or 3 Months (Recommended)"
+                    ],
+                    "includes": [
+                        "Engine Oil Replacement",
+                        "Oil Filter Replacement",
+                        "Air Filter Cleaning",
+                        "Coolant Top up",
+                        "Wiper Fluid Replacement",
+                        "Battery Water Tap up",
+                        "Heater/ Spark Plugs Checking",
+                        "Car Wash",
+                        "Interior Vacumming (Carpet & Seats)"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Standard Service",
+                    "img": "Standard Service",
+                    "price": 1700.00,
+                    "package": [
+                        "6 Hrs Taken",
+                        " 1000 Kms or I Month Warranty",
+                        " Every 10000 Kms or 6 Months (Recommended)"
+                    ],
+                    "includes": [
+                        "Engine Oil Replacement",
+                        "Oil Filter Replacement",
+                        "Air Filter Cleaning",
+                        "Fuel Filter Checking",
+                        "Cabin Filter/ AC Filter Cleaning",
+                        "Coolant Top up (200 ml)",
+                        "Wiper Fluid Replacement",
+                        "Brake Fluid Top up (50 ml)",
+                        "Battery Water Top up",
+                        "Heater/ Spark Plugs Checking",
+                        "Car Wash",
+                        "Interior Vacumming (Carpet & Seats)",
+                        "Scanning",
+                        "Rear Brake Shoe Serviced",
+                        "Front Brake Pads Serviced"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Comprehensive Service",
+                    "img": "Comprehensive Service",
+                    "price": 1700.00,
+                    "package": [
+                        "8 Hrs Taken",
+                        " 1000 Kms or I Month Warranty",
+                        " Every 20000 Kms or 1 Year (Recommended)"
+                    ],
+                    "includes": [
+                        "Engine Oil Replacement",
+                        "Oil Filter Replacement",
+                        "Air Filter Cleaning",
+                        "Fuel Filter Checking",
+                        "Cabin Filter/ AC Filter Cleaning",
+                        "Coolant Top up (200 ml)",
+                        "Wiper Fluid Replacement",
+                        "Brake Fluid Top up (50 ml)",
+                        "Battery Water Top up",
+                        "Heater/ Spark Plugs Checking",
+                        "Car Wash",
+                        "Interior Vacumming (Carpet & Seats)",
+                        "Scanning",
+                        "Rear Brake Shoe Serviced",
+                        "Front Brake Pads Serviced",
+                        "Wheel Balancing",
+                        "Wheel Alignment",
+                        "Tyre Rotation",
+                        "Throttle Body Cleaning",
+                        "Gear Oil Top up"
+                    ]
+                }
+            ]
         },
-        "Other Packages": {
-            "Car Inspection & Diagnostics": {
-                "price":2200,
-                "package": [
-                    "In case of Unknown Problems",
-                    " 25 Points Checklist"
-                ],
-                "includes": [
-                    "Engine Bay Inspection",
-                    "Underbody Inspection",
-                    "25 Points Checklist",
-                    " Upfront Estimate"
-                ]
-            },
-            "Engine Scanning": {
-                "price":2200,
-                "package": [
-                    "  OEM Scan & Code Reset",
-                    " Scanner Report Provided"
-                ],
-                "includes": [
-                    "Electrical Scanning",
-                    "Error Code Deletion",
-                    "Sensor Reset",
-                    "Inspection of Exaust Smoke"
-                ]
-            },
-            "Suspension Inspection": {
-                "price":2200,
-                "package": [
-                    "On Suspension Noise",
-                    "25 Points Check List"
-                ],
-                "includes": [
-                    "Front Shocker Check",
-                    "Rear Shocker Check",
-                    "Shocker Mount Check",
-                    "Link Rad Inspection",
-                    "Jumping Rod Bush Check"
-                ]
-            }
+        {
+            "Other Packages": [
+                {
+                    "id": 1,
+                    "title": "Car Inspection & Diagnostics",
+                    "img": "Car Inspection & Diagnostics",
+                    "price": 1700.00,
+                    "package": [
+                        "In case of Unknown Problems",
+                        " 25 Points Checklist"
+                    ],
+                    "includes": [
+                        "Engine Bay Inspection",
+                        "Underbody Inspection",
+                        "25 Points Checklist",
+                        " Upfront Estimate"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Engine Scanning",
+                    "img": "Standard Service",
+                    "price": 1700.00,
+                    "package": [
+                        "  OEM Scan & Code Reset",
+                        " Scanner Report Provided"
+                    ],
+                    "includes": [
+                        "Electrical Scanning",
+                        "Error Code Deletion",
+                        "Sensor Reset",
+                        "Inspection of Exaust Smoke"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Suspension Inspection",
+                    "img": "Suspension Inspection",
+                    "price": 700.00,
+                    "package": [
+                        "On Suspension Noise",
+                        "25 Points Check List"
+                    ],
+                    "includes": [
+                        "Front Shocker Check",
+                        "Rear Shocker Check",
+                        "Shocker Mount Check",
+                        "Link Rad Inspection",
+                        "Jumping Rod Bush Check"
+                    ]
+                }
+            ]
         }
-    },
-    "AC Service & Repairs": {
-        "AC Service": {
-            "Regular AC Service": {
-                "price":2200,
-                "package": [
-                    "Every  6  Months  Recommended",
-                    "Includes 5 Points Service"
-                ],
-                "includes": [
-                    "AC Gas Topup (upto 400gms)",
-                    "Condenser Cleaning",
-                    "AC Filter Cleaning",
-                    "AC Vent Cleaning",
-                    "AC Inspection"
-                ]
-            },
-            "High Performance AC Service": {
-                "price":2200,
-                "package": [
-                    "Every  6  Months  Recommended",
-                    "Includes 5 Points Service"
-                ],
-                "includes": [
-                    "AC Gas Replacement ( Upto 600gms )",
-                    "Dashboard Removing Refitting",
-                    "Compressor Oil Topup ( Upto 200ml )",
-                    "Cooling Coil Cleaning ( Front + Rear )",
-                    "Condenser Cleaning",
-                    "AC Filter Cleaning",
-                    "AC Vent Cleaning",
-                    "AC Leak Test",
-                    "Dashboard Cleaning"
-                ]
-            }
-        },
-        "AC Repairs": {
-            "AC Cooling Issues": {
-                "price":2200,
-                "package": [
-                    " AC not working properly?",
-                    "Need AC Fittings Replacement?",
-                    "Don't know what is wrong?"
-                ],
-                "includes": [
-                    "Additional Information by customer is Mandatory for this service",
-                    "Service contents will be provided after requirement submission",
-                    "Estimates based on requiremets will be collected from nearby garages and will be shared with customers"
-                ]
-            }
+    ],
+    "AC Service & Repairs": [
+        {
+            "AC Service": [
+                {
+                    "id": 1,
+                    "title": "Regular AC Service",
+                    "img": "Regular AC Service",
+                    "price": 700.00,
+                    "package": [
+                        "Every  6  Months  Recommended",
+                        "Includes 5 Points Service"
+                    ],
+                    "includes": [
+                        "AC Gas Topup (upto 400gms)",
+                        "Condenser Cleaning",
+                        "AC Filter Cleaning",
+                        "AC Vent Cleaning",
+                        "AC Inspection"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "High Performance AC Service",
+                    "img": "High Performance AC Service",
+                    "price": 700.00,
+                    "package": [
+                        "Every  6  Months  Recommended",
+                        "Includes 5 Points Service"
+                    ],
+                    "includes": [
+                        "AC Gas Replacement ( Upto 600gms )",
+                        "Dashboard Removing Refitting",
+                        "Compressor Oil Topup ( Upto 200ml )",
+                        "Cooling Coil Cleaning ( Front + Rear )",
+                        "Condenser Cleaning",
+                        "AC Filter Cleaning",
+                        "AC Vent Cleaning",
+                        "AC Leak Test",
+                        "Dashboard Cleaning"
+                    ]
+                }
+            ],
+            "AC Repairs": [
+                {
+                    "id": 1,
+                    "title": "AC Cooling Issues",
+                    "img": "AC Cooling Issues",
+                    "price": 1700.00,
+                    "package": [
+                        " AC not working properly?",
+                        "Need AC Fittings Replacement?",
+                        "Don't know what is wrong?"
+                    ],
+                    "includes": [
+                        "Additional Information by customer is Mandatory for this service",
+                        "Service contents will be provided after requirement submission",
+                        "Estimates based on requiremets will be collected from nearby garages and will be shared with customers"
+                    ]
+                }
+            ]
         }
-    },
-    "Battery Care": {
-        "Amaron": {
-            "Amaron (Month Warranty)": {
-                "price":2200,
-                "package": [
-                    "Amp Hour",
-                    "months warranty"
-                ],
-                "include": [
-                    "Free Installation",
-                    "Existing Battery Replacement"
-                ]
-            }
-        },
-        "Exide": {
-            "Exide(Month Warranty)": {
-                "price":2200,
-                "package": [
-                    "Amp Hour",
-                    "months warranty"
-                ],
-                "include": [
-                    "Free Installation",
-                    "Existing Battery Replacement"
-                ]
-            }
-        },
-        "Repairs": {
-            "Faulty Electricals": {
-                "price":2200,
-                "package": [
-                    "Dashboard Warning Lights?",
-                    "Malfunctioning Electrical Units?",
-                    "Don’t know what is wrong?"
-                ],
-                "include": [
-                    "Additional Information by customer is Mandatory for this service",
-                    "Service contents will be provided after requirement submission",
-                    "Estimates based on requiremets will be collected from nearby garages and will be shared with customers"
-                ]
-            }
+    ],
+    "Battery Care": [
+        {
+            "Amaron": [
+                {
+                    "id": 1,
+                    "title": "Amaron (Month Warranty)",
+                    "img": "Amaron (Month Warranty)",
+                    "price": 700.00,
+                    "package": [
+                        "Amp Hour",
+                        "months warranty"
+                    ],
+                    "include": [
+                        "Free Installation",
+                        "Existing Battery Replacement"
+                    ]
+                }
+            ],
+            "Exide": [
+                {
+                    "id": 1,
+                    "title": "Standard Service",
+                    "img": "Standard Service",
+                    "price": 1700.00,
+                    "package": [
+                        "Amp Hour",
+                        "months warranty"
+                    ],
+                    "include": [
+                        "Free Installation",
+                        "Existing Battery Replacement"
+                    ]
+                }
+            ],
+            "Repairs": [
+                {
+                    "id": 1,
+                    "title": "Standard Service",
+                    "img": "Standard Service",
+                    "price": 1700.00,
+                    "package": [
+                        "Dashboard Warning Lights?",
+                        "Malfunctioning Electrical Units?",
+                        "Don't know what is wrong?"
+                    ],
+                    "include": [
+                        "Additional Information by customer is Mandatory for this service",
+                        "Service contents will be provided after requirement submission",
+                        "Estimates based on requiremets will be collected from nearby garages and will be shared with customers"
+                    ]
+                }
+            ]
         }
-    },
-    "Wheel Care": {
-        "Wheel Care": {
-            "Regular Wheel Care": {
-                "price":2200,
-                "package": [
-                    "Alignment & Balancing",
-                    "Recommended every 3 Months"
-                ],
-                "include": [
-                    "Automated Wheel Balancing",
-                    "Weight Correction",
-                    " Wheel Rigidity Inspection",
-                    "Alloy Weights Additional",
-                    "Laser Assisted Wheel Alignment",
-                    "Steering Adjustment and Correction",
-                    "Camber and Castor Adjustment"
-                ]
-            },
-            "Complete Wheel Care": {
-                "price":2200,
-                "package": [
-                    "Alignment, Balancig & Tyre Rotation",
-                    "Recommended every 6 Months or 10,000 kms"
-                ],
-                "include": [
-                    "Automated Wheel Balancing",
-                    "Weight Correction",
-                    " Wheel Rigidity Inspection",
-                    "Alloy Weights Additional",
-                    "Laser Assisted Wheel Alignment",
-                    "Steering Adjustment and Correction",
-                    "Camber and Castor Adjustment",
-                    "Recommended at Tyre Replacement",
-                    "All Four Tyre Rotation as per Tread Wear",
-                    "Depth Inspection",
-                    "Pattern & Wear Inspection"
-                ]
-            }
-        },
-        "Apollo": {
-            "Apollo Alnac 4G Life": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "Apollo Alnac 4G": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "Apollo Alnac 4Gs": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            }
-        },
-        "MRF": {
-            "MRF ZTX": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "MRF ZLX": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "MRF ZVTV": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "MRF ZVTS": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "MRF ZV2K": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "MRF Wanderer Sport": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "MRF Wanderer Street": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            }
-        },
-        "CEAT": {
-            "Ceat Milaze": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "Ceat Milaze X3": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "Ceat Secura Drive": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "Ceat Czar Sports": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            }
-        },
-        "JK": {
-            "JK Ultima Neo": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "JK Ultima NXT": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "JK Ultima Sport": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "JK Vectra": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "JK UX Royale": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            },
-            "JK Elanzo NXT": {
-                "price":2200,
-                "package": [
-                    "Year Warranty",
-                    "Type- Tube or Tubeless"
-                ],
-                "include": [
-                    " Free Pick-up & Drop",
-                    "Tyre Replacement at Service Center",
-                    "Tyres Inspection for Tread",
-                    "Alignment & Balancing Charges Extra"
-                ]
-            }
+    ],
+    "Wheel Care": [
+        {
+            "Wheel Care": [
+                {
+                    "id": 1,
+                    "title": "Regular Wheel Care",
+                    "img": "Regular Wheel Care",
+                    "price": 1700.00,
+                    "package": [
+                        "Alignment & Balancing",
+                        "Recommended every 3 Months"
+                    ],
+                    "include": [
+                        "Automated Wheel Balancing",
+                        "Weight Correction",
+                        " Wheel Rigidity Inspection",
+                        "Alloy Weights Additional",
+                        "Laser Assisted Wheel Alignment",
+                        "Steering Adjustment and Correction",
+                        "Camber and Castor Adjustment"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Complete Wheel Care",
+                    "img": "Complete Wheel Care",
+                    "price": 1700.00,
+                    "package": [
+                        "Alignment, Balancig & Tyre Rotation",
+                        "Recommended every 6 Months or 10,000 kms"
+                    ],
+                    "include": [
+                        "Automated Wheel Balancing",
+                        "Weight Correction",
+                        " Wheel Rigidity Inspection",
+                        "Alloy Weights Additional",
+                        "Laser Assisted Wheel Alignment",
+                        "Steering Adjustment and Correction",
+                        "Camber and Castor Adjustment",
+                        "Recommended at Tyre Replacement",
+                        "All Four Tyre Rotation as per Tread Wear",
+                        "Depth Inspection",
+                        "Pattern & Wear Inspection"
+                    ]
+                }
+            ],
+            "Apollo": [
+                {
+                    "id": 1,
+                    "title": "Apollo Alnac 4G Life",
+                    "img": "Apollo Alnac 4G Life",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Apollo Alnac 4G",
+                    "img": "Apollo Alnac 4G",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Apollo Alnac 4Gs",
+                    "img": "Apollo Alnac 4Gs",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                }
+            ],
+            "MRF": [
+                {
+                    "id": 1,
+                    "title": "MRF ZTX",
+                    "img": "MRF ZTX",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "MRF ZLX",
+                    "img": "MRF ZLX",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "MRF ZVTV",
+                    "img": "MRF ZVTV",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "MRF ZVTS",
+                    "img": "MRF ZVTS",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "MRF ZV2K",
+                    "img": "MRF ZV2K",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "MRF Wanderer Sport",
+                    "img": "MRF Wanderer Sport",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "MRF Wanderer Street",
+                    "img": "MRF Wanderer Street",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                }
+            ],
+            "CEAT": [
+                {
+                    "id": 1,
+                    "title": "Ceat Milaze",
+                    "img": "Ceat Milaze",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Ceat Milaze X3",
+                    "img": "Standard Service",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Ceat Secura Drive",
+                    "img": "Ceat Secura Drive",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Ceat Czar Sports",
+                    "img": "Ceat Czar Sports",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                }
+            ],
+            "JK": [
+                {
+                    "id": 1,
+                    "title": "JK Ultima Neo",
+                    "img": "JK Ultima Neo",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "JK Ultima NXT",
+                    "img": "JK Ultima NXT",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": " rvice",
+                    "img": "JK Ultima Sport",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "JK Vectra",
+                    "img": "JK Vectra",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "JK UX Royale",
+                    "img": "JK UX Royale",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "JK Elanzo NXT",
+                    "img": "JK Elanzo NXT",
+                    "price": 1700.00,
+                    "package": [
+                        "Year Warranty",
+                        "Type- Tube or Tubeless"
+                    ],
+                    "include": [
+                        " Free Pick-up & Drop",
+                        "Tyre Replacement at Service Center",
+                        "Tyres Inspection for Tread",
+                        "Alignment & Balancing Charges Extra"
+                    ]
+                }
+            ]
         }
-    },
-    "Denting & Painting": {
-        "Front Side": {
-            "Front Bumper": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Front Bonnet": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            }
-        },
-        "Rear Side": {
-            "Rear Bumper": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Boot Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            }
-        },
-        "Whole Body": {
-            "Full Body Dent Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Alloy Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            }
-        },
-        "Left Side": {
-            "Left Fender Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Left Front Door Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Left Rear Door Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Left Quarter Panel Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Left Running Board Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            }
-        },
-        "Right Side": {
-            "Right Fender Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Right Front Door Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Right Rear Door Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Right Quarter Panel Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            },
-            "Right Running Board Paint": {
-                "price":2200,
-                "package": [
-                    "100 % Colour Match",
-                    "Branded Paints"
-                ],
-                "include": [
-                    "Grade A Primer",
-                    "OEM OES Paints",
-                    "4 Layers of Painting",
-                    "Panel Rubbing Polishing"
-                ]
-            }
+    ],
+    "Denting & Painting": [
+        {
+            "Front Side": [
+                {
+                    "id": 1,
+                    "title": "Front Bumper",
+                    "img": "Front Bumper",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Front Bonnet",
+                    "img": "Front Bonnet",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                }
+            ],
+            "Rear Side": [
+                {
+                    "id": 1,
+                    "title": "Rear Bumper",
+                    "img": "Rear Bumper",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Boot Paint",
+                    "img": "Boot Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                }
+            ],
+            "Whole Body": [
+                {
+                    "id": 1,
+                    "title": "Full Body Dent Paint",
+                    "img": "Full Body Dent Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Alloy Paint",
+                    "img": "Alloy Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                }
+            ],
+            "Left Side": [
+                {
+                    "id": 1,
+                    "title": "Left Fender Paint",
+                    "img": "Left Fender Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Left Front Door Paint",
+                    "img": "Left Front Door Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Left Rear Door Paint",
+                    "img": "Left Rear Door Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Left Quarter Panel Paint",
+                    "img": "Left Quarter Panel Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Left Running Board Paint",
+                    "img": "Left Running Board Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                }
+            ],
+            "Right Side": [
+                {
+                    "id": 1,
+                    "title": "Right Fender Paint",
+                    "img": "Right Fender Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Right Front Door Paint",
+                    "img": "Right Front Door Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Right Rear Door Paint",
+                    "img": "Right Rear Door Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Right Quarter Panel Paint",
+                    "img": "Right Quarter Panel Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Right Running Board Paint",
+                    "img": "Right Running Board Paint",
+                    "price": 1700.00,
+                    "package": [
+                        "100 % Colour Match",
+                        "Branded Paints"
+                    ],
+                    "include": [
+                        "Grade A Primer",
+                        "OEM OES Paints",
+                        "4 Layers of Painting",
+                        "Panel Rubbing Polishing"
+                    ]
+                }
+            ]
         }
-    },
-    "Inspection & Diagnostics": {
-        "Inspection & Diagnostics": {
-            "Car Inspection / Diagnostics": {
-                "price":2200,
-                "package": [
-                    "In case of Unknown Problems",
-                    " 25 Points Checklist"
-                ],
-                "include": [
-                    "Engine By Inspection",
-                    "Underbody Inspection",
-                    "25 Points Checklist",
-                    "Upfront Estimate"
-                ]
-            },
-            "Engine Scanning": {
-                "price":2200,
-                "package": [
-                    "OEM Scan & Code Reset",
-                    " Scanner Report Provided"
-                ],
-                "include": [
-                    "Electrical Scanning",
-                    "Error Code Deletion",
-                    "Sensor Reset",
-                    "Inspection of Exaust Smoke"
-                ]
-            },
-            "Suspension Inspection": {
-                "price":2200,
-                "package": [
-                    "On Suspension Noise",
-                    "25 Points Check List"
-                ],
-                "include": [
-                    "Front Shocker Check",
-                    "Rear Shocker Check",
-                    "Shocker Mount Check",
-                    "Link Rad Inspection",
-                    "Jumping Rod Bush Check"
-                ]
-            },
-            "Car Fluids Check": {
-                "price":2200,
-                "package": [
-                    "On Leakage or Check Light ( Recommended )",
-                    "5 Points Check List"
-                ],
-                "include": [
-                    "Brake Fluid Check",
-                    "Coolant Check",
-                    "Engine Oil Check",
-                    "Power Steering Oil Check",
-                    "Battery Water Inspection"
-                ]
-            },
-            "Second Hand Car Inspection & Diagnostics": {
-                "price":2200,
-                "package": [
-                    " Takes 4 hours",
-                    "50 Points Check-List",
-                    " Scanner Report Provided"
-                ],
-                "include": [
-                    "50 Points Check-List",
-                    "Full Car Scanning",
-                    "Physical Car Diagnosis",
-                    "Mechanical & Electrical Diagnosis",
-                    "Upfront Estimate"
-                ]
-            },
-            "Doorstep Accidental Inspection": {
-                "price":2200,
-                "package": [
-                    "Takes 4 hours",
-                    "25 Points Checklist",
-                    " Recommended- Accidental Damages"
-                ],
-                "include": [
-                    "Body Damage Inspection",
-                    "25 Points Checklist",
-                    "Insurance Claim Advice",
-                    " Policy Inspection"
-                ]
-            }
+    ],
+    "Inspection & Diagnostics": [
+        {
+            "Inspection & Diagnostics": [
+                {
+                    "id": 1,
+                    "title": "Car Inspection / Diagnostics",
+                    "img": "Car Inspection / Diagnostics",
+                    "price": 1700.00,
+                    "package": [
+                        "In case of Unknown Problems",
+                        " 25 Points Checklist"
+                    ],
+                    "include": [
+                        "Engine By Inspection",
+                        "Underbody Inspection",
+                        "25 Points Checklist",
+                        "Upfront Estimate"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Engine Scanning",
+                    "img": "Engine Scanning",
+                    "price": 1700.00,
+                    "package": [
+                        "OEM Scan & Code Reset",
+                        " Scanner Report Provided"
+                    ],
+                    "include": [
+                        "Electrical Scanning",
+                        "Error Code Deletion",
+                        "Sensor Reset",
+                        "Inspection of Exaust Smoke"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Suspension Inspection",
+                    "img": "Suspension Inspection",
+                    "price": 1700.00,
+                    "package": [
+                        "On Suspension Noise",
+                        "25 Points Check List"
+                    ],
+                    "include": [
+                        "Front Shocker Check",
+                        "Rear Shocker Check",
+                        "Shocker Mount Check",
+                        "Link Rad Inspection",
+                        "Jumping Rod Bush Check"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Car Fluids Check",
+                    "img": "Car Fluids Check",
+                    "price": 1700.00,
+                    "package": [
+                        "On Leakage or Check Light ( Recommended )",
+                        "5 Points Check List"
+                    ],
+                    "include": [
+                        "Brake Fluid Check",
+                        "Coolant Check",
+                        "Engine Oil Check",
+                        "Power Steering Oil Check",
+                        "Battery Water Inspection"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Second Hand Car Inspection & Diagnostics",
+                    "img": "Second Hand Car Inspection & Diagnostics",
+                    "price": 1700.00,
+                    "package": [
+                        " Takes 4 hours",
+                        "50 Points Check-List",
+                        " Scanner Report Provided"
+                    ],
+                    "include": [
+                        "50 Points Check-List",
+                        "Full Car Scanning",
+                        "Physical Car Diagnosis",
+                        "Mechanical & Electrical Diagnosis",
+                        "Upfront Estimate"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Doorstep Accidental Inspection",
+                    "img": "Doorstep Accidental Inspection",
+                    "price": 1700.00,
+                    "package": [
+                        "Takes 4 hours",
+                        "25 Points Checklist",
+                        " Recommended- Accidental Damages"
+                    ],
+                    "include": [
+                        "Body Damage Inspection",
+                        "25 Points Checklist",
+                        "Insurance Claim Advice",
+                        " Policy Inspection"
+                    ]
+                }
+            ]
         }
-    },
-    "Mechanical Repairs": {
-        "issues": {
-            "Car Engine Issues": {
-                "price":2200,
+    ],
+    "Mechanical Repairs": [{
+        "issues": [
+             {
+                "id": 1,
+                "title":"Car Engine Issues",
+                "img":"Car Engine Issues",
+                "price": 1700.00,
                 "package": [
                     "Engine Overfiring?",
                     "Engine heating?",
@@ -843,8 +1028,11 @@
                     "Estimates based on requiremets will be collected from nearby garages and will be shared with customers"
                 ]
             },
-            "Problem with Brakes & Wheels": {
-                "price":2200,
+            {
+                "id": 1,
+                "title": "Problem with Brakes & Wheels",
+                "img": "Problem with Brakes & Wheels",
+                "price": 1700.00,
                 "package": [
                     "Worn Out Brakes?",
                     "Screeching Noises?",
@@ -852,8 +1040,11 @@
                 ],
                 "include": []
             },
-            "Clutch & Transmission Troubles": {
-                "price":2200,
+             {
+                "id": 1,
+                "title":"Clutch & Transmission Troubles",
+                "img":"Clutch & Transmission Troubles",
+                "price": 1700.00,
                 "package": [
                     "Saggy Clutch?",
                     "Hard Gear Shifting?",
@@ -861,8 +1052,11 @@
                 ],
                 "include": []
             },
-            "Noises with Car Suspension & Steering": {
-                "price":2200,
+             {
+                "id": 1,
+                "title":"Noises with Car Suspension & Steering",
+                "img":"Noises with Car Suspension & Steering",
+                "price": 1700.00,
                 "package": [
                     "Hard Steering?",
                     "Noises from Suspension?",
@@ -870,8 +1064,11 @@
                 ],
                 "include": []
             },
-            "Faulty Electricals": {
-                "price":2200,
+          {
+                "id": 1,
+                "title":"Faulty Electricals",
+                "img": "Standard Service",
+                "price": 1700.00,
                 "package": [
                     "Dashboard Warning Lights?",
                     "Malfunctioning Electrical Units?",
@@ -879,8 +1076,11 @@
                 ],
                 "include": []
             },
-            "AC Cooling Issues": {
-                "price":2200,
+            {
+                "id": 1,
+                "title":"AC Cooling Issues",
+                "img":"AC Cooling Issues",
+                "price": 1700.00,
                 "package": [
                     "AC not working properly?",
                     "Need AC Fittings Replacement?",
@@ -888,8 +1088,11 @@
                 ],
                 "include": []
             },
-            "Damaged Car Body or Interiors": {
-                "price":2200,
+           {
+                "id": 1,
+                "title":"Damaged Car Body or Interiors",
+                "img":"Damaged Car Body or Interiors",
+                "price": 1700.00,
                 "package": [
                     "Stained Seat Covers?",
                     "Dents on Car Body?",
@@ -897,47 +1100,68 @@
                 ],
                 "include": []
             },
-            "Some Other Issue": {
-                "price":2200,
+             {
+                "id": 1,
+                "title":"Some Other Issue",
+                "img": "Some Other Issue",
+                "price": 1700.00,
                 "package": [
                     "Don’t know what is wrong?"
                 ],
                 "include": []
             }
-        }
-    },
-    "Road Side Assistance": {
-        "Road Side Assistance": {
-            "Battery Jump Start": {
-                "price":2200,
+    ]
+    }],
+    "Road Side Assistance": [{
+        "Road Side Assistance": [
+            {
+                "id": 1,
+                "title":"Battery Jump Start",
+                "img": "Battery Jump Start",
+                "price": 1700.00,
                 "package": [],
                 "include": []
             },
-            "Car Fluid Change": {
-                "price":2200,
+             {
+                "id": 1,
+                "title":"Car Fluid Change",
+                "img": "Car Fluid Change",
+                "price": 1700.00,
                 "package": [],
                 "include": []
             },
-            "Car Towing Service": {
-                "price":2200,
+            {
+                "id": 1,
+                "title":"Car Towing Service",
+                "img":"Car Towing Service",
+                "price": 1700.00,
                 "package": [],
                 "include": []
             },
-            "Car Self Starter Issue": {
-                "price":2200,
+            {
+                "id": 1,
+                "title":"Car Self Starter Issue",
+                "img":"Car Self Starter Issue",
+                "price": 1700.00,
                 "package": [],
                 "include": []
             },
-            "Car Engine Smoke": {
-                "price":2200,
+             {
+                "id": 1,
+                "title":"Car Engine Smoke",
+                "img":"Car Engine Smoke",
+                "price": 1700.00,
                 "package": [],
                 "include": []
             },
-            "Clutch Breakdown": {
-                "price":2200,
+             {
+                "id": 1,
+                "title":"Clutch Breakdown",
+                "img":"Clutch Breakdown",
+                "price": 1700.00,
                 "package": [],
                 "include": []
             }
-        }
-    }
+    ]
+    }]
 }

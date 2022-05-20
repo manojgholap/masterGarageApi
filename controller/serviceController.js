@@ -7,12 +7,15 @@ module.exports = {
         // res.send({ status: true, message: "fetched", resp: services })
         let service = Database.getCollection('service');
         for (const key in services) {
-            let category = services[key]
-            console.log("key", category);
-            var isbrandadded = await service.insertOne({
+
+           for(const value in services[key]){
+               console.log(services[key][value]);
+               var isbrandadded = await service.insertOne({
                 "service": key,
-                "category": category
+                "category": services[key][value]
             })
+           } // let category = services[key]
+            
         }
     },
     getAllServices: async (req, res) => {
