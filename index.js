@@ -11,7 +11,7 @@ const garage = require('./routes/garage');
 const car = require('./routes/cars');
 const service = require('./routes/services');
 const order = require('./routes/order')
-const port = 3200
+const port = process.env.port || 3200
 
 Database.loadDB((err, res) => {
     if (err) {
