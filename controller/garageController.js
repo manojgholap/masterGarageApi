@@ -11,7 +11,7 @@ module.exports={
             garageType:req.body.garageType,
             garageAddress:req.body.garageAddress,
             garageMobileNumber:req.body.garageMobileNumber,
-            garageAmenities:req.body.garageAmenities})
+            garageAmenities:req.body.garageAmenities,})
         if(isgarageAdded){
             res.send({status:true,message:"garage added"})
         }

@@ -23,5 +23,8 @@ router.post('/addUserCar', (req, res) => {userController.addUserCar(req,res)})
 router.post('/addUserTempCar', (req, res) => {userController.addUserTempCar(req,res)})
 router.post('/getUserCarDetails',(req,res)=>{userController.getUserCarDetails(req,res)})
 router.post('/getUserTempCarDetails',(req,res)=>{userController.getUserTempCarDetails(req,res)})
+router.post('/updateUserCar',(req,res)=>{userController.updateUserCar(req,res)})
+router.post('/updateUserTempCar',(req,res)=>{userController.updateUserTempCar(req,res)})
+router.post('/updateAddress',(req,res)=>{userController.updateAddress(req,res)});
 
 module.exports = router

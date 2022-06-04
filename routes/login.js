@@ -7,6 +7,7 @@ const login = require('../controller/loginController');
 
 router.post('/generateOtp', (req, res) => { login.generateOtp(req, res) })
 router.post('/validateOtp', (req, res) => { login.validateOtp(req, res) })
-router.post('/login', (req, res) => { login.login(req, res) })
+router.post('/login', (req, res) => { login.login(req, res) });
+router.post('/forgotPassword',(req,res)=>{login.forgotPassword(req,res)})
 
 module.exports=router

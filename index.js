@@ -10,6 +10,7 @@ const login = require('./routes/login');
 const garage = require('./routes/garage');
 const car = require('./routes/cars');
 const service = require('./routes/services');
+const order = require('./routes/order')
 
 Database.init((err, res) => {
     if (err) {
@@ -27,6 +28,7 @@ app.use('/login', login);
 app.use('/garage', garage);
 app.use('/car', car);
 app.use('/service', service);
+app.use('/order',order);
 app.use(compression())
 app.use(express.static(__dirname + '/uploads'));
 app.use(express.static(__dirname + '/brands'));
