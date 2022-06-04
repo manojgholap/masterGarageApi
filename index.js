@@ -11,7 +11,7 @@ const garage = require('./routes/garage');
 const car = require('./routes/cars');
 const service = require('./routes/services');
 const order = require('./routes/order')
-const port = process.env.port || 3200
+const PORT = process.env.port || 3200
 
 Database.loadDB((err, res) => {
     if (err) {
@@ -41,6 +41,6 @@ app.get('/', function(req, res) {
     res.render('pages/index');
   });
 
-app.listen(port, () => {
-    console.log('app is starting on port',port);
+app.listen(PORT, () => {
+    console.log(`app is starting on port ${PORT}`);
 })
