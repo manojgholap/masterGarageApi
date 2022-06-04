@@ -19,13 +19,13 @@ module.exports = {
         }
     },
     getAllServices: async (req, res) => {
-        let service = Database.getCollection('service');
-        var getAllService = await service.find().toArray();
-        if (!getAllService) {
-            res.send({ status: false, err: "something went wrong" })
-            return
-        }
-        res.send({ status: true, message: "services fetched",resp:getAllService})
+        // let service = Database.getCollection('service');
+        // var getAllService = await service.find().toArray();
+        // if (!getAllService) {
+        //     res.send({ status: false, err: "something went wrong" })
+        //     return
+        // }
+        res.send({ status: true, message: "services fetched",resp:services})
     },
     getServiceById: async (req, res) => {
         var id = req.body.id
