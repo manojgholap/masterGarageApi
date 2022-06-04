@@ -41,6 +41,6 @@ app.get('/', function(req, res) {
     res.render('pages/index');
   });
 
-app.listen(PORT, () => {
+app.listen(PORT,'0.0.0.0',() => {
     console.log(`app is starting on port ${PORT}`);
 })
