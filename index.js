@@ -22,6 +22,7 @@ Database.loadDB((err, res) => {
     }
 })
 
+app.set('view engine', 'ejs');
 app.use(cors())
 // app.use(express.Router())
 app.use('/user', user);
@@ -36,9 +37,9 @@ app.use(express.static(__dirname + '/brands'));
 app.use(express.json({ limit: "50mb", extended: true }));
 app.use(express.urlencoded({ limit: "50mb", extended: true, parameterLimit: 90000 }));
 
-app.get('/', (req, res) => {
-    res.send("server is started on port : " + port)
-})
+app.get('/', function(req, res) {
+    res.render('pages/index');
+  });
 
 app.listen(port, () => {
     console.log('app is starting on port',port);
