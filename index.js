@@ -11,8 +11,7 @@ const garage = require('./routes/garage');
 const car = require('./routes/cars');
 const service = require('./routes/services');
 const order = require('./routes/order')
-const PORT = process.env.port || 8080
-
+const PORT = process.env.port || 80
 Database.loadDB((err, res) => {
     if (err) {
         console.log(err);
@@ -41,6 +40,6 @@ app.get('/', function(req, res) {
     res.render('pages/index');
   });
 
-app.listen(PORT,'0.0.0.0',() => {
+app.listen(PORT,() => {
     console.log(`app is starting on port ${PORT}`);
 })
