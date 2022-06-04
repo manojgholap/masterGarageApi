@@ -11,6 +11,7 @@ const garage = require('./routes/garage');
 const car = require('./routes/cars');
 const service = require('./routes/services');
 const order = require('./routes/order')
+const port = 3200
 
 Database.loadDB((err, res) => {
     if (err) {
@@ -36,9 +37,9 @@ app.use(express.json({ limit: "50mb", extended: true }));
 app.use(express.urlencoded({ limit: "50mb", extended: true, parameterLimit: 90000 }));
 
 app.get('/', (req, res) => {
-    res.send("server is started on port : " + process.env.port)
+    res.send("server is started on port : " + port)
 })
 
-app.listen(process.env.port, () => {
-    console.log('app is starting on port', process.env.port);
+app.listen(port, () => {
+    console.log('app is starting on port',port);
 })
