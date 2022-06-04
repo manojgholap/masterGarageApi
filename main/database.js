@@ -9,13 +9,13 @@ module.exports = {
         MongoClient.connect(urlString, { useNewUrlParser: true },async function (err, client) {
             if (err) {
                 setTimeout(function () {
-                    this.loadDB(callback);
+                    callback("something went wrong",null)
                 }, 3000);
             }
             else {
                 mainDb =client.db(process.env.databaseName);
                 if (callback)
-                    callback();
+                    callback(null,"database Connected");
             }
         }
         );

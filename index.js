@@ -12,14 +12,14 @@ const car = require('./routes/cars');
 const service = require('./routes/services');
 const order = require('./routes/order')
 
-// Database.init((err, res) => {
-//     if (err) {
-//         console.log("error while connecting database");
-//     }
-//     else {
-//         console.log("database connected");
-//     }
-// })
+Database.loadDB((err, res) => {
+    if (err) {
+        console.log(err);
+    }
+    else {
+        console.log(res);
+    }
+})
 
 app.use(cors())
 // app.use(express.Router())
