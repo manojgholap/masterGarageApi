@@ -37,7 +37,7 @@ module.exports = {
                         password: req.body.password
                     }
                 })
-        } 
+        }
         else {
             let createUser = await user.insertOne({
                 mobileNumber: req.body.mobileNumber,
@@ -51,7 +51,7 @@ module.exports = {
         const tempCar = Database.getCollection('userTempCar');
         const userCar = Database.getCollection('userCar');
         let cars = await tempCar.find({ token: req.body.token }).toArray();
-        let insertCar = await cars.forEach(element => {
+        await cars.forEach(element => {
             userCar.insertOne({
                 mobileNumber: req.body.mobileNumber,
                 make: element.make,
@@ -59,9 +59,7 @@ module.exports = {
                 fueltype: element.fueltype
             })
         });
-        if (insertCar) {
-            await tempCar.deleteMany({ "token": req.body.token });
-        }
+        await tempCar.deleteMany({ "token": req.body.token });
         res.send({ status: true, message: "user details saved successfully" });
         return
     },
